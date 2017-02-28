@@ -13,7 +13,7 @@ Single page app, one textbox to search, and list for the results
 
 #Requirements
 
-You only need a valid YouTube Data API v3 key to replace in controlle.js. (The current one only works on my domain).
+You only need a valid YouTube Data API v3 key to replace in controller.js. (The current one only works on my domain).
 
 #Future Requirements
 
