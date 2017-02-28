@@ -1,5 +1,4 @@
-# myYoutube
-Example-2 AngularJs
+# myYoutube Example-2 AngularJs
 
 #Purpose
 
