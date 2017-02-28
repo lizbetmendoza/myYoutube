@@ -1,0 +1,20 @@
+<!-- All content search textbox and the list, I used bootstrap for layout -->
+<div class="container">
+  <h1 class="text-center">My<spam>Youtube</spam> for kids</h1>
+  <search></search>
+  <div ng-if="checkDataLength(youtubeList)">
+      <div class="panel-body">
+        <div class="list-group-item" ng-repeat="data in youtubeList">
+          <div class="well well-sm media">
+              <a class="thumbnail pull-left" target="_block" href="https://www.youtube.com/watch?v={{data.id.videoId}}">
+                  <img alt="{{data.snippet.title}}" src="{{data.snippet.thumbnails.default.url}}" width="120" height="90">
+              </a>
+              <div class="media-body">
+                  <a target="_block" href="https://www.youtube.com/watch?v={{data.id.videoId}}">{{data.snippet.title}}</a>
+                  <p>By <a target="_block" href="https://www.youtube.com/channel/{{data.snippet.channelId}}"><span class="label label-info">{{data.snippet.channelTitle}}</span></a></p>
+              </div>
+          </div>
+         </div>
+      </div>
+  </div>
+</div>

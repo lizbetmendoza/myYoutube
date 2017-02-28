@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube for Kids</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Libraries -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="lib/angular.min.js"></script>
+        <script src="lib/angular-ui-router.min.js"></script>
+        <!-- My references -->
+        <script src="js/app.js"></script>
+        <script src="js/controller/controller.js"></script>
+        <script src="js/directives/search.js"></script>
+        <style>
+          spam{ color:red !important;}
+        </style>
+    </head>
+    <body ng-app="MyYoutubeKids" ng-controller="youtubeCrtl">
+      <!--  this is where I will inject the content -->
+        <div ui-view></div>
+
+    </body>
+</html>
